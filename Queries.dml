@@ -1,0 +1,73 @@
+-- This query aggregates searches by hour, day, and month to identify temporal trends.
+SELECT 
+  DATEPART(hour, TIME_DIM.TIME) AS HourOfDay,
+  DATEPART(weekday, TIME_DIM.TIME) AS DayOfWeek,
+  DATEPART(month, TIME_DIM.TIME) AS Month,
+  COUNT(*) AS NumberOfSearches
+FROM 
+  FACTS
+JOIN TIME_DIM ON FACTS.TIMEID = TIME_DIM.ID
+WHERE 
+  FACTS.QUERY LIKE '%porn%' 
+GROUP BY 
+  DATEPART(hour, TIME_DIM.TIME),
+  DATEPART(weekday, TIME_DIM.TIME),
+  DATEPART(month, TIME_DIM.TIME)
+ORDER BY 
+  NumberOfSearches DESC;
+
+-- This query finds the most popular categories per state.
+SELECT 
+  STATE.ABBR, 
+  CATEGORY.CATEGORY, 
+  COUNT(*) AS NumberOfQueries
+FROM 
+  FACTS
+JOIN STATE ON FACTS.STATEID = STATE.ID
+JOIN CATEGORY ON FACTS.CATEGORYID = CATEGORY.ID
+WHERE 
+  FACTS.QUERY LIKE '%porn%'
+GROUP BY 
+  STATE.ABBR, 
+  CATEGORY.CATEGORY
+ORDER BY 
+  NumberOfQueries DESC;
+
+
+-- This query determines the most popular porn categories.
+SELECT 
+  CATEGORY.CATEGORY, 
+  COUNT(*) AS Popularity
+FROM 
+  FACTS
+JOIN CATEGORY ON FACTS.CATEGORYID = CATEGORY.ID
+WHERE 
+  FACTS.QUERY LIKE '%porn%'
+GROUP BY 
+  CATEGORY.CATEGORY
+ORDER BY 
+  Popularity DESC;
+
+-- This query lists the most often clicked websites for porn-related searches.
+SELECT 
+  URL_DIM.URL, 
+  COUNT(FACTS.CLICK) AS Clicks
+FROM 
+  FACTS
+JOIN URL_DIM ON FACTS.URLID = URL_DIM.ID
+WHERE 
+  FACTS.QUERY LIKE '%porn%'
+GROUP BY 
+  URL_DIM.URL
+ORDER BY 
+  Clicks DESC;
+
+-- This query estimates the proportion of illegal content.
+SELECT 
+  COUNT(CASE WHEN FACTS.QUERY LIKE '%child porn%' THEN 1 ELSE NULL END) AS IllegalQueries,
+  COUNT(*) AS TotalQueries
+FROM 
+  FACTS
+WHERE 
+  FACTS.QUERY LIKE '%porn%';
+
