@@ -1,0 +1,104 @@
+# Interesting links
+https://www.ministryoftruth.me.uk/2014/05/06/what-porn-culture-part-1/
+
+### Current data_set
+SELECT DISTINCT query.QUERY, timedim.*, facts.*
+FROM AOL_SCHEMA.FACTS facts
+INNER JOIN AOL_SCHEMA.QUERYDIM query ON facts.QUERYID = query.ID
+INNER JOIN AOL_SCHEMA.TIMEDIM timedim ON facts.TIMEID = timedim.ID
+WHERE LOWER(query.QUERY) LIKE '%xxx%'
+    OR LOWER(query.QUERY) LIKE '%porn%'
+    OR LOWER(query.QUERY) LIKE '%sex%'
+    OR LOWER(query.QUERY) LIKE '%fuck%'
+    OR LOWER(query.QUERY) LIKE '%girl%'
+    OR LOWER(query.QUERY) LIKE '%babe%'
+    OR LOWER(query.QUERY) LIKE '%teen%'
+    OR LOWER(query.QUERY) LIKE '%cum%'
+    OR LOWER(query.QUERY) LIKE '%adult%'
+    OR LOWER(query.QUERY) LIKE '%18%'
+    OR LOWER(query.QUERY) LIKE '%penis%'
+    OR LOWER(query.QUERY) LIKE '%tits%'
+    OR LOWER(query.QUERY) LIKE '%nude%'
+    OR LOWER(query.QUERY) LIKE '%naked%'
+    OR LOWER(query.QUERY) LIKE '%hot %'
+   
+
+   
+
+
+
+
+#### Older ones
+
+# Search for strings:
+SELECT
+    DISTINCT(query.QUERY)
+FROM AOL_SCHEMA.FACTS facts
+INNER JOIN AOL_SCHEMA.QUERYDIM query
+    ON
+        facts.QUERYID = query.ID
+WHERE
+    (LOWER(query.QUERY) LIKE '%porn%')
+    AND (LOWER(query.QUERY) LIKE '%new york%' OR LOWER(query.QUERY) LIKE '% ny %');
+
+
+
+
+# Search for the categories in the querys:
+-- Search for specific strings in the query column
+SELECT DISTINCT(query.QUERY)
+FROM AOL_SCHEMA.FACTS facts
+INNER JOIN AOL_SCHEMA.QUERYDIM query
+    ON facts.QUERYID = query.ID
+WHERE LOWER(query.QUERY) LIKE '%amateur%'
+    OR LOWER(query.QUERY) LIKE '%3D%'
+    OR LOWER(query.QUERY) LIKE '%4K%'
+    OR LOWER(query.QUERY) LIKE '%anal%'
+    OR LOWER(query.QUERY) LIKE '%arab%'
+    OR LOWER(query.QUERY) LIKE '%asian%'
+    OR LOWER(query.QUERY) LIKE '%ass%'
+    OR LOWER(query.QUERY) LIKE '%asslick%'
+    OR LOWER(query.QUERY) LIKE '%babe%'
+    OR LOWER(query.QUERY) LIKE '%babysitter%'
+    OR LOWER(query.QUERY) LIKE '%bbc%'
+    OR LOWER(query.QUERY) LIKE '%bbw%'
+    OR LOWER(query.QUERY) LIKE '%bdsm%'
+    OR LOWER(query.QUERY) LIKE '%beach fuck%'
+    OR LOWER(query.QUERY) LIKE '%bisexual%'
+    OR LOWER(query.QUERY) LIKE '%big ass%'
+    OR LOWER(query.QUERY) LIKE '%big black cock%'
+    OR LOWER(query.QUERY) LIKE '%big dick%'
+    OR LOWER(query.QUERY) LIKE '%big tits%'
+    OR LOWER(query.QUERY) LIKE '%bisexual%'
+    -- Add more conditions for the remaining strings in your list
+    OR LOWER(query.QUERY) LIKE '%transgender%'
+    OR LOWER(query.QUERY) LIKE '%vintage%'
+    OR LOWER(query.QUERY) LIKE '%voyeur%';
+
+
+# Search for words:
+-- Search for specific strings in the query column
+SELECT DISTINCT(query.QUERY)
+FROM AOL_SCHEMA.FACTS facts
+INNER JOIN AOL_SCHEMA.QUERYDIM query
+    ON facts.QUERYID = query.ID
+WHERE LOWER(query.QUERY) LIKE '%xxx%'
+    OR LOWER(query.QUERY) LIKE '%porn%'
+    OR LOWER(query.QUERY) LIKE '%sex%'
+    OR LOWER(query.QUERY) LIKE '%fuck%'
+
+
+# Search for sex words in querys with all columns (time and facts)
+-- Search for specific strings in the query column
+SELECT DISTINCT query.QUERY, timedim.*, facts.*
+FROM AOL_SCHEMA.FACTS facts
+INNER JOIN AOL_SCHEMA.QUERYDIM query ON facts.QUERYID = query.ID
+INNER JOIN AOL_SCHEMA.TIMEDIM timedim ON facts.TIMEID = timedim.ID
+WHERE LOWER(query.QUERY) LIKE '%xxx%'
+    OR LOWER(query.QUERY) LIKE '%por%'
+    OR LOWER(query.QUERY) LIKE '%se%'
+    OR LOWER(query.QUERY) LIKE '%fuc%'
+    OR LOWER(query.QUERY) LIKE '%girl%'
+    OR LOWER(query.QUERY) LIKE '%teen%'
+    OR LOWER(query.QUERY) LIKE '%cum%'
+    OR LOWER(query.QUERY) LIKE '%babe%'
