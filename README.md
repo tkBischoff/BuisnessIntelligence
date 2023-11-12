@@ -47,46 +47,48 @@ www.Internetarchive.com   + Memeto Protocol  [Fehler! Verweisquelle konnte nicht
 ### Overall Trends
 
 1. categories of porn:<br>
-   which porn categories are the most popular ones generally?<br>
-<br>
+   which porn categories are the most popular ones generally?
+
 2. illegal:<br>
    which proportion does illegal stuff have?<br>
-   *(maybe even add that to the categories and make a histogram for example showing the legal and the illegal stuff in different colors)*<br>
-<br>
+   *(maybe even add that to the categories and make a histogram for example showing the legal and the illegal stuff in different colors)*
+
 3. clicks:<br>
    which websites were clicked most often?<br>
    what were the queries/categories/keywords that generated the most clicks?<br>
-   what queries/categories/keywords ended most sessions?<br>
-<br>
+   what queries/categories/keywords ended most sessions?
+
 4. categories of users:<br>
-   what percentage of users consumes porn on a regular basis/from time to time/never?<br>
-<br>
+   what percentage of users consumes porn on a regular basis/from time to time/never?
+
 5. traffic (sessions/queries):<br>
    what percentage of sessions and/or queries was porn-related?<br>
-   *(yielding the overall percentage of the query traffic related to porn)*<br>
-<br>
+   *(yielding the overall percentage of the query traffic related to porn)*
+
 ### Temporal Trends
 
 6. differences throughout:<br>
    the day?<br>
    the week?<br>
-   the entire three months?<br>
-<br>
+   the entire three months?
+
 7. (possible) outliers:<br>
    what about outliers?<br>
-   what about certain events? (for example on march 15th people were arrested for child porn stuff<br>
-<br>
+   what about certain events? (for example on march 15th people were arrested for child porn stuff
+
 8. sessions:<br>
    how long did the sessions related to porn usually go?<br>
-   *(average duration, range of durations)*<br>
-<br>
+   *(average duration, range of durations)*
+ 
 ### Geographical Trends
 
 9. states:<br>
    most popular categories per state?<br>
-   how common are certain queries in different states?<br>
+   how common are certain queries in different states?
 
-### *kicked out because too complex:*<br>
+
+
+### *kicked out because too complex:*
 
 10. *demographic trends: split by age, gender, ethnicity, etc.*<br>
 
