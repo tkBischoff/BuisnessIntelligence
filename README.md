@@ -47,7 +47,7 @@ www.Internetarchive.com   + Memeto Protocol  [Fehler! Verweisquelle konnte nicht
 ### Overall Trends
 
 1. categories of porn:<br>
-   which porn categories are the most popular ones generally?<br>
+   which porn categories are the most popular ones generally?
 <br>
 2. illegal:<br>
    which proportion does illegal stuff have?<br>
