@@ -47,7 +47,7 @@ www.Internetarchive.com   + Memeto Protocol  [Fehler! Verweisquelle konnte nicht
 ### Overall Trends
 
 1. categories of porn:<br>
-   which porn categories are the most popular ones generally?
+   which porn categories are the most popular ones generally?<br>
 <br>
 2. illegal:<br>
    which proportion does illegal stuff have?<br>
@@ -66,7 +66,7 @@ www.Internetarchive.com   + Memeto Protocol  [Fehler! Verweisquelle konnte nicht
    *(yielding the overall percentage of the query traffic related to porn)*<br>
 <br>
 ### Temporal Trends
-<br>
+
 6. differences throughout:<br>
    the day?<br>
    the week?<br>
@@ -81,12 +81,12 @@ www.Internetarchive.com   + Memeto Protocol  [Fehler! Verweisquelle konnte nicht
    *(average duration, range of durations)*<br>
 <br>
 ### Geographical Trends
-<br>
+
 9. states:<br>
    most popular categories per state?<br>
    how common are certain queries in different states?<br>
-<br>
-*### kicked out because too complex:*<br>
-<br>
-*10. demographic trends: split by age, gender, ethnicity, etc.*<br>
+
+### *kicked out because too complex:*<br>
+
+10. *demographic trends: split by age, gender, ethnicity, etc.*<br>
 
