@@ -60,8 +60,9 @@ www.Internetarchive.com   + Memeto Protocol  [Fehler! Verweisquelle konnte nicht
 
 4. categories of users:<br>
    what percentage of users consumes porn on a regular basis/from time to time/never?
+   **Mariem**
 
-5. traffic (sessions/queries):<br>
+6. traffic (sessions/queries):<br>
    what percentage of sessions and/or queries was porn-related?<br>
    *(yielding the overall percentage of the query traffic related to porn)*
 
@@ -71,21 +72,24 @@ www.Internetarchive.com   + Memeto Protocol  [Fehler! Verweisquelle konnte nicht
    the day?<br>
    the week?<br>
    the entire three months?
+   **Robert**
 
 7. (possible) outliers:<br>
    what about outliers?<br>
    what about certain events? (for example on march 15th people were arrested for child porn stuff
+   **Robert**
 
 8. sessions:<br>
    how long did the sessions related to porn usually go?<br>
    *(average duration, range of durations)*
+   **Mariem**
  
 ### Geographical Trends
 
 9. states:<br>
    most popular categories per state?<br>
    how common are certain queries in different states?
-
+   **Tim**
 
 
 ### *kicked out because too complex:*
