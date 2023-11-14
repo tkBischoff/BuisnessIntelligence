@@ -47,52 +47,51 @@ www.Internetarchive.com   + Memeto Protocol  [Fehler! Verweisquelle konnte nicht
 ### Overall Trends
 
 1. categories of porn:<br>
-   which porn categories are the most popular ones generally?
+   which porn categories are the most popular ones generally?<br>
+   **MARIEM**
 
-2. illegal:<br>
-   which proportion does illegal stuff have?<br>
-   *(maybe even add that to the categories and make a histogram for example showing the legal and the illegal stuff in different colors)*
-
-3. clicks:<br>
+2. clicks:<br>
    which websites were clicked most often?<br>
    what were the queries/categories/keywords that generated the most clicks?<br>
    what queries/categories/keywords ended most sessions?
+   **MARIEM**
 
-4. categories of users:<br>
+3. categories of users:<br>
    what percentage of users consumes porn on a regular basis/from time to time/never?<br>
-   **Mariem**
 
-5. traffic (sessions/queries):<br>
+4. traffic (sessions/queries):<br>
    what percentage of sessions and/or queries was porn-related?<br>
    *(yielding the overall percentage of the query traffic related to porn)*
 
 ### Temporal Trends
 
-6. differences throughout:<br>
+5. differences throughout:<br>
    the day?<br>
    the week?<br>
    the entire three months?<br>
-   **Robert**
+   **ROBERT**
 
-7. (possible) outliers:<br>
+6. (possible) outliers:<br>
    what about outliers?<br>
    what about certain events? (for example on march 15th people were arrested for child porn stuff<br>
-   **Robert**
+   **ROBERT**
 
-8. sessions:<br>
+7. sessions:<br>
    how long did the sessions related to porn usually go?<br>
    *(average duration, range of durations)*<br>
-   **Mariem**
+
  
 ### Geographical Trends
 
-9. states:<br>
+8. states:<br>
    most popular categories per state?<br>
    how common are certain queries in different states?<br>
-   **Tim**
+   **TIM**
 
 
-### *kicked out because too complex:*
+### *kicked out:*
 
-10. *demographic trends: split by age, gender, ethnicity, etc.*<br>
+9. *demographic trends: split by age, gender, ethnicity, etc.*<br>
+
+10. *illegal: which proportion does illegal stuff have?*<br>
 
