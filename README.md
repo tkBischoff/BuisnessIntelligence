@@ -53,7 +53,7 @@ www.Internetarchive.com   + Memeto Protocol  [Fehler! Verweisquelle konnte nicht
 2. clicks:<br>
    which websites were clicked most often?<br>
    what were the queries/categories/keywords that generated the most clicks?<br>
-   what queries/categories/keywords ended most sessions?
+   what queries/categories/keywords ended most sessions?<br>
    **MARIEM**
 
 3. categories of users:<br>
