@@ -1,0 +1,6 @@
+UPDATE EXA_DB.ANONIDDIM anonid
+SET anonid.STATEID = state_map.STATEID
+FROM EXA_DB.ANONIDDIM anonid
+JOIN TMP_TABLES.USER_STATE_MAP state_map
+    ON
+        state_map.ANONID = anonid.ANONID
