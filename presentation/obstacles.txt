@@ -1,0 +1,12 @@
+OBSTACLES THAT WE ENCOUNTERED
+
+1. Imcompleteness:
+	- Rule 34: If it exists, there is porn about it
+		--> almost infinitely many categories, special keywords, sometimes secret "codewords"
+			--> impossible to get all the queries that were meant to look for porn
+
+2. Underinclusion:
+	- typos like „pancreatits“ instead of „pancreatitis“ made it hard to really filter for only the right keywords
+	- many ambiguous queries (looking for porn or looking for information on sexual topics, help in case of abuse (because porn queries can be very aggressive and brutal), etc.)
+		--> false hits included, even if we minimised these:
+		for example, we kicked out all illegal categories, because those were very often very ambiguous and especially for such a sensitive topic we wouldn't have wanted to present highly distorted results
