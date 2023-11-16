@@ -1,0 +1,16 @@
+SELECT DISTINCT
+    a.ANONID,
+    t."day of the year"
+FROM
+    FACTS f
+JOIN
+    TIMEDIM t ON f.TIMEID = t.ID
+JOIN
+    PORN_QUERIES p ON f.QUERYID = p.ID
+JOIN
+    ANONIDDIM a ON f.ANONID = a.ID
+WHERE
+    p.QUERY IS NOT NULL AND
+    f.CLICK IS NOT NULL
+ORDER BY
+    a.ANONID, t."day of the year";
