@@ -1,0 +1,4 @@
+rows when joining porn_queries subset with facts: 509516
+all rows in facts: 36000000
+
+that's roughly 1.4%, but due to our mentioned obstacles and problems, this is probably far away from the real number
