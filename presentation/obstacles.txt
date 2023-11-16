@@ -10,3 +10,6 @@ OBSTACLES THAT WE ENCOUNTERED
 	- many ambiguous queries (looking for porn or looking for information on sexual topics, help in case of abuse (because porn queries can be very aggressive and brutal), etc.)
 		--> false hits included, even if we minimised these:
 		for example, we kicked out all illegal categories, because those were very often very ambiguous and especially for such a sensitive topic we wouldn't have wanted to present highly distorted results
+
+3. Data Issues:
+	- values for weekdays had many spaces in it after exporting the result tables, took us long to notice why nothing worked when 		mapping the weekday names
