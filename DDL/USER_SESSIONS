@@ -1,0 +1,12 @@
+create or replace table EXA_DB.USER_SESSIONS
+(
+    ANONID            DECIMAL(18),
+    "day of the year" VARCHAR(3) UTF8,
+    "hour"            VARCHAR(2) UTF8,
+    "minute"          VARCHAR(2) UTF8,
+    "second"          VARCHAR(2) UTF8,
+    QUERY             VARCHAR(5000) UTF8,
+    URL               VARCHAR(5000) UTF8,
+    TIME_SPAMP_SECOND DOUBLE
+)
+/
