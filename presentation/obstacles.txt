@@ -13,6 +13,3 @@ OBSTACLES THAT WE ENCOUNTERED
 
 3. Data Issues:
 	- values for weekdays had many spaces in it after exporting the result tables, took us long to notice why nothing worked when 		mapping the weekday names
-
-4. Outliers:
-	- we had a few outliers for the "day of the year" plot, one of them an extreme outlier, but for that one we didn't find any 		information that would tell us why we have such an extreme outlier for that date
