@@ -1,0 +1,9 @@
+
+1. Understand Search Behaviour
+   - Examine how people search, when they switch gears in their searches, and map out their typical search routes and goals.
+
+2. Analyze Key Metrics for Adult Search Content
+   - Look into the main success measures for adult content searches from the AOL dataset to understand what satisfies users and what makes a search successful.
+
+3. Observe User Search and Browsing Trends
+   - Monitor and evaluate common trends in how users search and browse, focusing on measurable aspects of their online activities and choices.
